@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery X Rpl B</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<style type="text/css">
+
+    body {
+        font-family: sans-serif;
+    }
+    .logo h3{
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+    /* Ukuran Tablet */
+    @media screen and (max-width: 768px) {
+
+        nav .logo {
+            color: rgb(183, 196, 207);
+        }
+
+        nav ul {
+            width: 50%;
+        }
+    }
+
+    /* Ukuran Tablet End*/
+
+    /* Ukuran Smartphone */
+
+    @media screen and (max-width: 576px) {
+        .logo h3{
+            font-size: 30px;
+        }
+        body {
+            overflow-x: hidden;
+        }
+
+        .menu-toggle {
+            display: flex;
+        }
+    }
+
+    /* Ukuran Smartphone End*/
+
+    /* Responsive Breakpoint End*/
+
+    /* Body Image */
+
+    body .body {
+        padding: 30px;
+
+    }
+
+    .image {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 5px;
+    }
+
+    .image img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .box {
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h3>galeri</h3>
+        </div>
+
+        <ul>
+            <li> <a href="Home.html">Home</a></li>
+            <li> <a href="Katalog.html">Katalog</a></li>
+            <li> <a href="Produk.html">Produk</a></li>
+            <li> <a class="slid" href="Galeri.html">Gallery</a></li>
+        </ul>
+
+        <div class="menu-toggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <script src="script.js"></script>
+    <div class="body">
+        <div class="image">
+            <div class="box"><img src="fotbar.jpeg" title="foto bersama untuk katalog"></div>
+            <div class="box"><img src="fotbar2.jpeg"></div>
+            <div class="box"><img src="fotbar3.jpeg"></div>
+            <div class="box"><img src="fotbar4.jpeg"></div>
+            <div class="box"><img src="laki-laki.jpeg"></div>
+            <div class="box"><img src="perempuan.jpeg"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div id="v">
+                <li>
+                    <a href=""><img
+                            src="https://smkn2trenggalek.sch.id/wp-content/uploads/2018/09/cropped-Logo_SMKn2.png"
+                            alt=""></a>
+                </li>
+                <li><a href=""><img
+                            src="https://1.bp.blogspot.com/-ak9_i3jcjqw/XZNjLVrL1YI/AAAAAAAAAwM/Q37IzlHN0BgIsdgmKfyet8yFzxoI-VaVACLcBGAsYHQ/s1600/Logo%2BOsis%2BSma%2BTerbaru.png"
+                            alt=""></a> </li>
+                <li>
+                    <a href=""><img
+                            src="http://1.bp.blogspot.com/_QhzkS0282d4/TQ9jQY0RXyI/AAAAAAAAAAU/qQRIJl1lEVI/s1600/Logo%252BAmbalan.jpg"
+                            alt=""><a>
+                </li>
+            </div>
+            <div id="p">
+                <li>
+                    <a href="https://www.instagram.com/pameran_rpl_xrplb?r=nametag">
+                        <ul><i class="fab fa-instagram">
+                                <p>@pameran_rpl_xrplb</p>
+                            </i></ul>
+                    </a>
+                    <a href="https://chat.whatsapp.com/DpzUT0INvLi8Ijb6OrvTHh">
+                        <ul><i class="fab fa-whatsapp">
+                                <p>@Pameran X RPL B</p>
+                            </i></ul>
+                    </a>
+                    <a href="">
+                        <ul><i class="fab fa-facebook">
+                                <p>@akun</p>
+                            </i></ul>
+                    </a>
+                </li>
+            </div>
+        </div>
+        <div class="coding-by">
+            <a href="pp.html">
+                <p>Web Coding by NPC Class</p>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

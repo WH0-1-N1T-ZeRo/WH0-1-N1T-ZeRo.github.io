@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creator website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style type="text/css">
+    @font-face {
+        font-family: foont;
+        src: url(LatiniaBlack.ttf);
+    }
+    .pro {
+        display: block;
+    }
+
+    body {
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow-x: hidden;
+    }
+    .logo h3{
+        font-size: 35px;
+        font-family: foont;
+    }
+
+    .foto img {
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .pro .data {
+        display: flex;
+        margin: 20px 10px;
+        justify-content: center;
+        width: 99%;
+    }
+
+    .data .d1 {
+        background-color: rgb(135, 140, 145);
+        border-radius: 15px;
+        box-shadow: 5px 0px 5px 2px rgb(70, 62, 62);
+        width: 90%;
+        display: flex;
+    }
+
+    .data .d1:hover {
+        transition: 0.5s;
+        transform: scale(0.9);
+        box-shadow: 6px 0px 6px 4px rgb(70, 62, 62);
+    }
+
+    .data .d1 .info {
+        display: flex;
+        justify-content: center;
+    }
+
+    .info img {
+        width: 200px;
+        border-radius: 15px;
+        margin: 10px;
+    }
+
+    p,
+    h3,
+    p span {
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    p span {
+        color: aqua;
+    }
+
+    .data .penjelasan {
+        display: flex;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer img{
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    @media(max-width:620px) {
+        .logo h3{
+        font-size: 30px;
+    }
+        .pro .data .d1 {
+            display: block;
+        }
+
+        p,
+        h3,
+        p span {
+            font-size: 17px;
+            margin: 5px 10px;
+            text-align: center;
+        }
+
+        .menu-toggle {
+            display: flex;
+    }
+    .footer img{
+        width: 70px;
+    }
+    }
+</style>
+
+<body background="bground.jpg">
+    <nav>
+        <div class="logo">
+            <h3>Creator</h3>
+        </div>
+
+        <ul>
+            <li> <a class="slid" href="Home.html">Home</a></li>
+            <li> <a href="Katalog.html">Katalog</a></li>
+            <li> <a href="Produk.html">Produk</a></li>
+            <li> <a href="Galeri.html">Gallery</a></li>
+        </ul>
+
+        <div class="menu-toggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <div class="pro">
+        <div class="data">
+            <div class="d1">
+                <div class="info">
+                    <img src="rdit.png" alt="">
+                </div>
+                <div class="penjelasan">
+                    <ul>
+                        <h3>Feryan Raditya Putra Wibowo</h3>
+                        <p><span>Absen </span>: 15</p>
+                        <p><span>Kelas </span>: X rpl B</p>
+                        <p><span>Keahlian </span>: Web design dengan HTML dan CSS</p>
+                        <a href="https:wa.me/6282232266312" color="blue">
+                            <p><span>whatsapp </span>: 082232266312</p>
+                        </a>
+                        <p><span>Hobi </span>: Menggambar, Nonton Anime, Web Design</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="data">
+            <div class="d1">
+                <div class="info">
+                    <img src="pp.jpeg" alt="">
+                </div>
+                <div class="penjelasan">
+                    <ul>
+                        <h3>Fahmi Nur Fadillah</h3>
+                        <p><span>Absen </span>: 11</p>
+                        <p><span>Kelas </span>: X rpl B</p>
+                        <p><span>Keahlian </span>: Web design dengan HTML dan CSS, membuat applikasi sederhana berbasis
+                            C#</p>
+                        <a href="https:wa.me/62895399283377" color="blue">
+                            <p><span>whatsapp </span>: 0895399283377</p>
+                        </a>
+                        <a href="https://www.und3rw0rld.eu.org/">
+                            <p><span>Blog </span>: und3rw0rld.eu.org</p>
+                        </a>
+                        <p><span>Hobi </span>: Berselancar di Internet (Pemain Aktif)</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="data">
+            <div class="d1">
+                <div class="info">
+                    <img src="ddk.jpeg" alt="">
+                </div>
+                <div class="penjelasan">
+                    <ul>
+                        <h3>Didik Nanda Nur Man Syah</h3>
+                        <p><span>Absen </span>: 04</p>
+                        <p><span>Kelas </span>: X rpl B</p>
+                        <p><span>Keahlian </span>: Web design dengan HTML dan CSS</p>
+                        <a href="https:wa.me/62859176888785" color="blue">
+                            <p><span>whatsapp </span>: 0859176888785</p>
+                        </a>
+                        <p><span>Hobi </span>: Menggambar, Nonton Anime, Web Design</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+                <img src="logo1.jpeg" alt="">
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>

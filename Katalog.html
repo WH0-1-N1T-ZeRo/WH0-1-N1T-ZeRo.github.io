@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<style type="text/css">
+    .logo h3{
+            font-size: 35px;
+        }
+    .info {
+        display: block;
+    }
+
+    .info h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+
+    .info .pameran .jelas h4 {
+        font-size: 20px;
+    }
+
+    .info .pameran img {
+        width: 200px;
+        height: 200px;
+        margin: 0 10px;
+    }
+
+    .info .pameran,
+    .judul h2,
+    .karya,
+    .karya .hasil h4 {
+        display: flex;
+    }
+
+    p,
+    span {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+
+    h4,
+    p,
+    span {
+
+        color: #3b2923;
+    }
+
+    .judul h2 {
+        width: 100%;
+        justify-content: center;
+        padding: 10px 0;
+        font-size: 25px;
+    }
+
+    .karya {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .karya .hasil img,
+    .karya .hasil .intro {
+        width: 300px;
+        height: 280px;
+    }
+
+    .karya .hasil {
+        display: block;
+    }
+
+    .karya .hasil h4 {
+        padding: 5px 10px;
+        font-size: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .karya .hasil p {
+        text-align: center;
+    }
+
+    @media(max-width:450px) {
+        .logo h3{
+            font-size: 30px;
+        }
+        .judul{
+            overflow-x: none;
+        }
+        .info h2 {
+            font-size: 20px;
+        }
+
+        .judul h2 {
+            font-size: 20px;
+        }
+
+        .karya .hasil h4 {
+            font-size: 11px;
+        }
+
+        .intro p,
+        .info .pameran .jelas p,
+        span {
+            font-size: 11px;
+        }
+
+        .karya .hasil img,
+        .karya .hasil .intro {
+            width: 160px;
+            height: 140px;
+        }
+
+        .karya .hasil .intro {
+            margin: 5px;
+        }
+
+
+        .karya {
+            display: block;
+        }
+
+        .karya .hasil ul {
+            display: flex;
+            margin: 20px 0;
+            justify-content: center;
+        }
+
+        .info .pameran img {
+            width: 120px;
+            height: 120px;
+        }
+
+        .info .pameran .jelas h4 {
+            font-size: 11px;
+        }
+    }
+</style>
+<body>
+    <nav>
+        <div class="logo">
+            <h3>Katalog</h3>
+        </div>
+
+        <ul>
+            <li> <a href="Home.html">Home</a></li>
+            <li> <a class="slid" href="Katalog.html">Katalog</a></li>
+            <li> <a href="Produk.html">Produk</a></li>
+            <li> <a href="Galeri.html">Gallery</a></li>
+        </ul>
+
+        <div class="menu-toggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <div class="info">
+        <h2>Pameran Jurusan</h2>
+        <div class="pameran">
+            <img src="pmrn.jpeg">
+            <div class="jelas">
+                <h4>Tujuan</h4>
+                <p>Tujuan pameran adalah untuk menyajikan suatu produk atau karya seni kepada khalayak ramai serta untuk 
+                    mendapatkan opini atau apresiasi dari masyarakat luas terhadap produk atau karya seni yang dipamerkan.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="judul">
+        <h2>Project kelas</h2>
+        <div class="karya">
+            <div class="hasil">
+                <a href="#">
+                    <ul>
+                        <li><img src="applikasi.png" alt=""></li>
+                        <div class="intro">
+                            <h4>applikasi konversi mata uang C#</h4>
+                            <p>
+                                Aplikasi konversi mata uang dengan Windows Forms Application
+                                dengan bahasa pemrograman C# (Csharp) dari materi
+                                <span>Source Code</span> 21 (switch-case) yang telah
+                                dipelajari lalu diapplikasikan dalam applikasi Windows
+                            </p>
+                        </div>
+                    </ul>
+                </a>
+            </div>
+
+            <div class="hasil">
+                <a href="#">
+                    <ul>
+                        <div class="intro">
+                            <h4>Desingn Kaos</h4>
+                            <p>
+                                Desingn yang dibuat dengan corel draw dan juga
+                                adobe ilustrator yang telah dipelajari dalam materi
+                                dasar program keahlian serta dengan tambahan materi
+                                yang diperoleh dari internet
+
+                            </p>
+                        </div>
+                        <li><img src="kaos.png" alt=""></li>
+                    </ul>
+                </a>
+            </div>
+
+            <div class="hasil">
+                <a href="#">
+                    <ul>
+                        <li><img src="game.png" alt=""></li>
+
+                        <div class="intro">
+                            <h4>Game berbasis C#</h4>
+                            <p>
+                                Game yang di buat dengan Console Application C#
+                                dengan bertumpuan pada <span>Source Code 32-37</span>
+                                yang telah dipelajari serta dengan tambahan materi
+                                yang berupa pemilihan angka secara Random yang di jumlahkan sehingga pemain
+                                akan diminta mengisi hasil dari penjumlahan tersebut
+
+                            </p>
+                        </div>
+                    </ul>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div id="v">
+                <li>
+                    <a href=""><img
+                            src="https://smkn2trenggalek.sch.id/wp-content/uploads/2018/09/cropped-Logo_SMKn2.png"
+                            alt=""></a>
+                </li>
+                <li><a href=""><img
+                            src="https://1.bp.blogspot.com/-ak9_i3jcjqw/XZNjLVrL1YI/AAAAAAAAAwM/Q37IzlHN0BgIsdgmKfyet8yFzxoI-VaVACLcBGAsYHQ/s1600/Logo%2BOsis%2BSma%2BTerbaru.png"
+                            alt=""></a> </li>
+                <li>
+                    <a href=""><img
+                            src="http://1.bp.blogspot.com/_QhzkS0282d4/TQ9jQY0RXyI/AAAAAAAAAAU/qQRIJl1lEVI/s1600/Logo%252BAmbalan.jpg"
+                            alt=""><a>
+                </li>
+            </div>
+            <div id="p">
+                <li>
+                    <a href="https://www.instagram.com/pameran_rpl_xrplb?r=nametag">
+                        <ul><i class="fab fa-instagram">
+                                <p>@pameran_rpl_xrplb</p>
+                            </i></ul>
+                    </a>
+                    <a href="https://chat.whatsapp.com/DpzUT0INvLi8Ijb6OrvTHh">
+                        <ul><i class="fab fa-whatsapp">
+                                <p>@Pameran X RPL B</p>
+                            </i></ul>
+                    </a>
+                    <a href="">
+                        <ul><i class="fab fa-facebook">
+                                <p>@akun</p>
+                            </i></ul>
+                    </a>
+                </li>
+            </div>
+        </div>
+        <div class="coding-by">
+            <a href="pp.html">
+                <p>Web Coding by NPC Class</p>
+            </a>
+        </div>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+</html>

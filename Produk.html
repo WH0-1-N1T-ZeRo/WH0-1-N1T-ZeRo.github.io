@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        .banner01 ul h3,
+        .banner01 ul h3 i,
+        .banner01 a {
+            color: aquamarine;
+            font-size: 30px;
+        }
+
+        .banner01 ul h3 {
+            border: 3px solid;
+            border-radius: 10px;
+            padding: 5px 10px;
+        }
+
+        .banner01 .slid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .banner01 {
+            background-image: url(banner.png);
+            width: 100%;
+            height: 30rem;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .b1 {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            grid-gap: 15px;
+        }
+
+        .b2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+
+        .b1 li,
+        .b2 li {
+            background-color: aliceblue;
+            margin: 0px;
+            padding: 3px 5px;
+            justify-content: center;
+            display: block;
+            border-radius: 24px;
+            box-shadow: 5px 0px 5px 2px rgb(70, 62, 62);
+        }
+
+        .b1 li:hover,
+        .b2 li:hover {
+            transform: scale(0.9);
+            transition: 0.5s;
+            box-shadow: 5px 0px 2px 3px rgb(70, 62, 62);
+        }
+
+        .b1 li ul,
+        .b2 li ul {
+            display: block;
+        }
+
+        .b1 li ul h5,
+        .b1 li ul p,
+        .b2 li ul p,
+        .b2 li ul h5 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .b1 li a,
+        .b2 li a {
+            display: flex;
+            justify-content: center;
+        }
+
+        .b1 li a img {
+            display: flex;
+            justify-content: center;
+            margin: 0 15px;
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+        }
+        .logo h3 {
+                font-size: 35px;
+            }
+
+        @media(max-width:600px) {
+            .logo h3 {
+                font-size: 30px;
+            }
+
+            .banner01 {
+                height: 20rem;
+            }
+        }
+
+        @media(max-width:400px) {
+            .b2 li a img {
+                width: 150px;
+                height: 150px;
+            }
+
+            .banner01 {
+                height: 17rem;
+            }
+
+            .banner01 ul h3,
+            .banner01 ul h3 i,
+            .banner01 a {
+                color: aquamarine;
+                font-size: 25px;
+            }
+        }
+
+        /*nV7zvHQ*axZE2KwTtkqo*/
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h3>Produk</h3>
+        </div>
+
+        <ul>
+            <li> <a href="Home.html">Home</a></li>
+            <li> <a href="Katalog.html">Katalog</a></li>
+            <li> <a class="slid" href="Produk.html">Produk</a></li>
+            <li> <a href="Galeri.html">Gallery</a></li>
+        </ul>
+
+        <div class="menu-toggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <div class="banner01">
+        <div class="slid">
+            <ul>
+                <div class="bn">
+                    <h3><a href=""><i class="fab fa-whatsapp"></i> wa me</a></h3>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="b1">
+        <li><a href=""><img src="sticker3.jpeg" alt=""></a>
+            <ul>
+                <h5>Sticker</h5>
+                <p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </p>
+                <p>Rp.2000</p>
+            </ul>
+        </li>
+        <li><a href=""><img src="sticker1.png" alt=""></a>
+            <ul>
+                <h5>Sticker</h5>
+                <p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </p>
+                <p>Rp.2000</p>
+            </ul>
+        </li>
+        <li><a href=""><img src="minuman.JPG" alt=""></a>
+            <ul>
+                <h5>Es Jelly Manga</h5>
+                <p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </p>
+                <p>Rp.5000</p>
+            </ul>
+        </li>
+        <li><a href=""><img src="sticker2.png" alt=""></a>
+            <ul>
+                <h5>Sticker</h5>
+
+                <p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </p>
+                <p>Rp.2000</p>
+            </ul>
+        </li>
+        <li><a href=""><img src="full-sticker.png" alt=""></a>
+            <ul>
+                <h5>Paket Hemat</h5>
+
+                <p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </p>
+                <p>Rp.5000</p>
+            </ul>
+        </li>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div id="v">
+                <li>
+                    <a href=""><img
+                            src="https://smkn2trenggalek.sch.id/wp-content/uploads/2018/09/cropped-Logo_SMKn2.png"
+                            alt=""></a>
+                </li>
+                <li><a href=""><img
+                            src="https://1.bp.blogspot.com/-ak9_i3jcjqw/XZNjLVrL1YI/AAAAAAAAAwM/Q37IzlHN0BgIsdgmKfyet8yFzxoI-VaVACLcBGAsYHQ/s1600/Logo%2BOsis%2BSma%2BTerbaru.png"
+                            alt=""></a> </li>
+                <li>
+                    <a href=""><img
+                            src="http://1.bp.blogspot.com/_QhzkS0282d4/TQ9jQY0RXyI/AAAAAAAAAAU/qQRIJl1lEVI/s1600/Logo%252BAmbalan.jpg"
+                            alt=""><a>
+                </li>
+            </div>
+            <div id="p">
+                <li>
+                    <a href="https://www.instagram.com/pameran_rpl_xrplb?r=nametag">
+                        <ul><i class="fab fa-instagram">
+                                <p>@pameran_rpl_xrplb</p>
+                            </i></ul>
+                    </a>
+                    <a href="https://chat.whatsapp.com/DpzUT0INvLi8Ijb6OrvTHh">
+                        <ul><i class="fab fa-whatsapp">
+                                <p>@Pameran X RPL B</p>
+                            </i></ul>
+                    </a>
+                    <a href="">
+                        <ul><i class="fab fa-facebook">
+                                <p>@akun</p>
+                            </i></ul>
+                    </a>
+                </li>
+            </div>
+        </div>
+        <div class="coding-by">
+            <a href="pp.html">
+                <p>Web Coding by NPC Class</p>
+            </a>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
